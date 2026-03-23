@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wp-dark: #0a0e1a;
+  --color-wp-darker: #060a14;
+  --color-wp-blue: #4a90d9;
+  --color-wp-blue-light: #6bb5ff;
+  --color-wp-blue-glow: rgba(74, 144, 217, 0.15);
+  --color-wp-grid: rgba(74, 144, 217, 0.06);
+  --color-wp-border: rgba(74, 144, 217, 0.15);
+  --color-wp-text: #c8d6e5;
+  --color-wp-text-dim: #7a8ba3;
+  --font-family-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-color: var(--color-wp-dark);
+    color: var(--color-wp-text);
+    font-family: var(--font-family-mono);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: var(--color-wp-blue);
+    color: white;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap');

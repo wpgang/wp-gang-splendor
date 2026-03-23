@@ -1,1 +1,1 @@
-# wp-gang-splendor
+readme
