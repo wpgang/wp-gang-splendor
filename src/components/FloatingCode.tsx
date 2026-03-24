@@ -39,8 +39,8 @@ export default function FloatingCode() {
         className="absolute inset-0"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(58,123,213,0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(58,123,213,0.03) 1px, transparent 1px)
+            linear-gradient(rgba(58,123,213,0.12) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(58,123,213,0.12) 1px, transparent 1px)
           `,
           backgroundSize: '60px 60px',
         }}
@@ -49,7 +49,7 @@ export default function FloatingCode() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: 'radial-gradient(rgba(58,123,213,0.1) 1.5px, transparent 1.5px)',
+          backgroundImage: 'radial-gradient(rgba(58,123,213,0.18) 1.5px, transparent 1.5px)',
           backgroundSize: '30px 30px',
           animation: 'dotPulse 4s ease-in-out infinite',
         }}
