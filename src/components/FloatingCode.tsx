@@ -45,15 +45,7 @@ export default function FloatingCode() {
           backgroundSize: '60px 60px',
         }}
       />
-      {/* Dot grid with pulse */}
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: 'radial-gradient(rgba(58,123,213,0.35) 2px, transparent 2px)',
-          backgroundSize: '30px 30px',
-          animation: 'dotPulse 4s ease-in-out infinite, dotDrift 20s linear infinite',
-        }}
-      />
+      {/* Dot grid with pulse - disabled */}
       {/* Floating code text */}
       {items.map((item) => (
         <span
