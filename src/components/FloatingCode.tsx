@@ -102,8 +102,12 @@ export default function FloatingCode() {
           100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
         }
         @keyframes dotPulse {
-          0%, 100% { opacity: 0.6; }
+          0%, 100% { opacity: 0.5; }
           50% { opacity: 1; }
+        }
+        @keyframes dotDrift {
+          0% { background-position: 0 0; }
+          100% { background-position: 30px 60px; }
         }
         @keyframes cornerGlow {
           0%, 100% { opacity: 0.3; }
