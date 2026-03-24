@@ -49,9 +49,9 @@ export default function FloatingCode() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: 'radial-gradient(rgba(58,123,213,0.18) 1.5px, transparent 1.5px)',
+          backgroundImage: 'radial-gradient(rgba(58,123,213,0.35) 2px, transparent 2px)',
           backgroundSize: '30px 30px',
-          animation: 'dotPulse 4s ease-in-out infinite',
+          animation: 'dotPulse 4s ease-in-out infinite, dotDrift 20s linear infinite',
         }}
       />
       {/* Floating code text */}
