@@ -49,9 +49,9 @@ export default function FloatingCode() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: 'radial-gradient(rgba(58,123,213,0.18) 1.5px, transparent 1.5px)',
+          backgroundImage: 'radial-gradient(rgba(58,123,213,0.35) 2px, transparent 2px)',
           backgroundSize: '30px 30px',
-          animation: 'dotPulse 4s ease-in-out infinite',
+          animation: 'dotPulse 4s ease-in-out infinite, dotDrift 20s linear infinite',
         }}
       />
       {/* Floating code text */}
@@ -102,8 +102,12 @@ export default function FloatingCode() {
           100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
         }
         @keyframes dotPulse {
-          0%, 100% { opacity: 0.6; }
+          0%, 100% { opacity: 0.5; }
           50% { opacity: 1; }
+        }
+        @keyframes dotDrift {
+          0% { background-position: 0 0; }
+          100% { background-position: 30px 60px; }
         }
         @keyframes cornerGlow {
           0%, 100% { opacity: 0.3; }
