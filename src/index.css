@@ -10,7 +10,7 @@
   --color-wp-border: rgba(74, 144, 217, 0.15);
   --color-wp-text: #c8d6e5;
   --color-wp-text-dim: #7a8ba3;
-  --font-family-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+  --font-family-mono: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 @layer base {
@@ -32,4 +32,4 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
