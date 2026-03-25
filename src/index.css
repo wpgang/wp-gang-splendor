@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-wp-dark: #0a0e1a;
-  --color-wp-darker: #060a14;
+  --color-wp-dark: #070b15;
+  --color-wp-darker: #040710;
   --color-wp-blue: #3a7bc8;
   --color-wp-blue-light: #5a9fe0;
   --color-wp-blue-glow: rgba(58, 123, 200, 0.15);
