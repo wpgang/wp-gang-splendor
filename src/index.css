@@ -10,7 +10,9 @@
   --color-wp-border: rgba(74, 144, 217, 0.15);
   --color-wp-text: #c8d6e5;
   --color-wp-text-dim: #7a8ba3;
-  --font-family-mono: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-family-mono: 'Share Tech Mono', monospace;
+  --font-family-display: 'Bebas Neue', sans-serif;
+  --font-family-body: 'Barlow Condensed', sans-serif;
 }
 
 @layer base {
@@ -21,7 +23,7 @@
     margin: 0;
     background-color: var(--color-wp-dark);
     color: var(--color-wp-text);
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -32,4 +34,4 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
