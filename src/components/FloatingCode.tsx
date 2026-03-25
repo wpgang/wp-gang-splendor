@@ -56,7 +56,7 @@ export default function FloatingCode() {
             top: `${item.y}%`,
             opacity: item.opacity,
             fontSize: `${item.size}px`,
-            animation: `floatUp ${20 + Math.random() * 25}s linear infinite`,
+            animation: `floatUp ${35 + Math.random() * 35}s linear infinite`,
             animationDelay: `${-(Math.random() * 25)}s`,
           }}
         >

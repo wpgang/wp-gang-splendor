@@ -30,7 +30,7 @@ function resetParticle(p: Particle, W: number, H: number) {
   p.r = Math.random() * 1.2 + 0.3;
   p.vx = (Math.random() - 0.5) * 0.3;
   p.vy = (Math.random() - 0.5) * 0.3;
-  p.a = Math.random() * 0.6 + 0.15;
+  p.a = Math.random() * 0.7 + 0.35;
   p.life = Math.random() * 200 + 100;
   p.age = 0;
 }
