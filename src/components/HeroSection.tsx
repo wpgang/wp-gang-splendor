@@ -19,10 +19,10 @@ export default function HeroSection() {
 
       {/* Title */}
       <h1 className="text-center">
-        <span className="block text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.0]">
+        <span className="block text-4xl md:text-6xl lg:text-7xl font-normal text-white tracking-tight leading-[1.0]">
           HERODOTUS
         </span>
-        <span className="block text-4xl md:text-6xl lg:text-7xl font-extrabold text-wp-blue tracking-tight leading-[1.1] mt-1">
+        <span className="block text-4xl md:text-6xl lg:text-7xl font-medium text-wp-blue tracking-tight leading-[1.1] mt-1">
           ON THIS DAY
         </span>
       </h1>

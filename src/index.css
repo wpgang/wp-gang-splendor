@@ -3,9 +3,9 @@
 @theme {
   --color-wp-dark: #0a0e1a;
   --color-wp-darker: #060a14;
-  --color-wp-blue: #4a90d9;
-  --color-wp-blue-light: #6bb5ff;
-  --color-wp-blue-glow: rgba(74, 144, 217, 0.15);
+  --color-wp-blue: #3a7bc8;
+  --color-wp-blue-light: #5a9fe0;
+  --color-wp-blue-glow: rgba(58, 123, 200, 0.15);
   --color-wp-grid: rgba(74, 144, 217, 0.06);
   --color-wp-border: rgba(74, 144, 217, 0.15);
   --color-wp-text: #c8d6e5;
