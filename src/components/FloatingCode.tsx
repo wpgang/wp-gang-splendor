@@ -56,8 +56,8 @@ export default function FloatingCode() {
             top: `${item.y}%`,
             opacity: item.opacity,
             fontSize: `${item.size}px`,
-            animation: `floatUp ${15 + item.speed * 25}s linear infinite`,
-            animationDelay: `${item.id * -1.3}s`,
+            animation: `floatUp ${20 + Math.random() * 25}s linear infinite`,
+            animationDelay: `${-(Math.random() * 25)}s`,
           }}
         >
           {item.text}
