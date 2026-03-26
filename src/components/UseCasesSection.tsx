@@ -41,7 +41,7 @@ export default function UseCasesSection() {
     <section className="relative py-24 px-4">
       <div className="max-w-5xl mx-auto" ref={ref}>
         <div className="text-center mb-16">
-          <div className="text-wp-blue/10 text-xs tracking-[0.3em] uppercase mb-3">// Use Cases //</div>
+          <div className="text-wp-blue/50 text-xs tracking-[0.3em] uppercase mb-3">// Use Cases //</div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">Built For These</h2>
         </div>
 
