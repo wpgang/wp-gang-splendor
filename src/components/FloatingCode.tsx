@@ -88,10 +88,8 @@ export default function FloatingCode() {
 
       <style>{`
         @keyframes floatUp {
-          0% { transform: translateY(100vh) translateX(0px); opacity: 0; }
-          10% { opacity: 1; }
-          90% { opacity: 1; }
-          100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
+          0% { transform: translateY(100vh) translateX(0px); }
+          100% { transform: translateY(-100vh) translateX(30px); }
         }
         @keyframes dotPulse {
           0%, 100% { opacity: 0.5; }
