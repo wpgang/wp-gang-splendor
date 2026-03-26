@@ -25,7 +25,7 @@ export default function FloatingCode() {
       text,
       x: Math.random() * 100,
       y: Math.random() * 100,
-      opacity: 0.06 + Math.random() * 0.06,
+      opacity: 0.12 + Math.random() * 0.10,
       speed: 0.2 + Math.random() * 0.3,
       size: 10 + Math.random() * 4,
     }));
@@ -50,11 +50,11 @@ export default function FloatingCode() {
       {items.map((item) => (
         <span
           key={item.id}
-          className="absolute font-mono select-none"
+          className="absolute text-wp-blue font-mono select-none"
           style={{
             left: `${item.x}%`,
             top: `${item.y}%`,
-            color: `rgba(58, 123, 200, ${item.opacity})`,
+            opacity: item.opacity,
             fontSize: `${item.size}px`,
             animation: `floatUp ${35 + Math.random() * 35}s linear infinite`,
             animationDelay: `${-(Math.random() * 25)}s`,
