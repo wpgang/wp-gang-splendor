@@ -104,7 +104,7 @@ export default function FeaturesSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">
-          <div className="text-wp-blue/50 text-xs tracking-[0.3em] uppercase mb-3">// Features //</div>
+          <div className="text-wp-blue/10 text-xs tracking-[0.3em] uppercase mb-3">// Features //</div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">Everything You Need</h2>
           <p className="mt-4 text-wp-text-dim text-sm max-w-lg mx-auto">
             One plugin, zero bloat. Herodotus does one thing exceptionally well — recurring historical events.
