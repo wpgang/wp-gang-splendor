@@ -4,10 +4,10 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-12 pb-20">
       {/* Top bar */}
-      <div className="flex items-center gap-2 mb-8 text-wp-blue/60 text-xs tracking-[0.3em] uppercase">
-        <span className="text-wp-blue/30">//</span>
+      <div className="flex items-center gap-2 mb-8 text-wp-blue/10 text-xs tracking-[0.3em] uppercase">
+        <span className="text-wp-blue/8">//</span>
         <span>WordPress Plugin by WP Gang</span>
-        <span className="text-wp-blue/30">//</span>
+        <span className="text-wp-blue/8">//</span>
       </div>
 
       {/* Logo */}
