@@ -31,7 +31,7 @@ export default function DownloadSection() {
           transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
         }}
       >
-        <div className="text-wp-blue/10 text-xs tracking-[0.3em] uppercase mb-3">// Get Started //</div>
+        <div className="text-wp-blue/50 text-xs tracking-[0.3em] uppercase mb-3">// Get Started //</div>
         <h2 className="text-3xl md:text-4xl font-bold text-white">Install Herodotus Now</h2>
         <p className="mt-4 text-wp-text-dim text-sm max-w-lg mx-auto leading-relaxed">
           Free, open-source, and ready to go. Upload the plugin to your WordPress site and start creating recurring historical events in minutes.
