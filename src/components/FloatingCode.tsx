@@ -25,7 +25,7 @@ export default function FloatingCode() {
       text,
       x: Math.random() * 100,
       y: Math.random() * 100,
-      opacity: 0.03 + Math.random() * 0.05,
+      opacity: 0.25 + Math.random() * 0.25,
       speed: 0.2 + Math.random() * 0.3,
       size: 10 + Math.random() * 4,
     }));
