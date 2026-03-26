@@ -50,11 +50,11 @@ export default function FloatingCode() {
       {items.map((item) => (
         <span
           key={item.id}
-          className="absolute text-wp-blue font-mono select-none"
+          className="absolute font-mono select-none"
           style={{
             left: `${item.x}%`,
             top: `${item.y}%`,
-            opacity: item.opacity,
+            color: `rgba(58, 123, 200, ${item.opacity})`,
             fontSize: `${item.size}px`,
             animation: `floatUp ${35 + Math.random() * 35}s linear infinite`,
             animationDelay: `${-(Math.random() * 25)}s`,
