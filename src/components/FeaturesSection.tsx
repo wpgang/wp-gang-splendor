@@ -89,7 +89,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
           <Icon className="w-5 h-5 text-wp-blue" />
         </div>
         <div>
-          <span className="text-[10px] tracking-[0.2em] text-wp-blue/10 uppercase">[{feature.tag}]</span>
+          <span className="text-[10px] tracking-[0.2em] text-wp-blue/60 uppercase">[{feature.tag}]</span>
           <h3 className="text-white font-semibold text-base mt-1">{feature.title}</h3>
           <p className="text-wp-text-dim text-sm mt-2 leading-relaxed">{feature.desc}</p>
         </div>
