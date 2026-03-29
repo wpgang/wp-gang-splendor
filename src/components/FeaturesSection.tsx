@@ -89,7 +89,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
           <Icon className="w-5 h-5 text-wp-blue" />
         </div>
         <div>
-          <span className="text-[10px] tracking-[0.2em] text-wp-blue/60 uppercase">[{feature.tag}]</span>
+          <span className="text-[12px] tracking-[0.2em] text-wp-blue/100 uppercase">[{feature.tag}]</span>
           <h3 className="text-white font-semibold text-base mt-1">{feature.title}</h3>
           <p className="text-wp-text-dim text-sm mt-2 leading-relaxed">{feature.desc}</p>
         </div>
@@ -104,7 +104,7 @@ export default function FeaturesSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">
-          <div className="text-wp-blue/50 text-xs tracking-[0.3em] uppercase mb-3">// Features //</div>
+          <div className="text-wp-blue/100 text-xs tracking-[0.3em] uppercase mb-3">// Features //</div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">Everything You Need</h2>
           <p className="mt-4 text-wp-text-dim text-sm max-w-lg mx-auto">
             One plugin, zero bloat. Herodotus does one thing exceptionally well — recurring historical events.

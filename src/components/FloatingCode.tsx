@@ -25,7 +25,7 @@ export default function FloatingCode() {
       text,
       x: Math.random() * 100,
       y: Math.random() * 100,
-      opacity: 0.12 + Math.random() * 0.10,
+      opacity: 0.04 + Math.random() * 0.08,
       speed: 0.2 + Math.random() * 0.3,
       size: 10 + Math.random() * 4,
     }));
@@ -50,7 +50,7 @@ export default function FloatingCode() {
       {items.map((item) => (
         <span
           key={item.id}
-          className="absolute text-wp-blue font-mono select-none"
+          className="absolute text-wp-blue/40 font-mono select-none"
           style={{
             left: `${item.x}%`,
             top: `${item.y}%`,
@@ -69,27 +69,29 @@ export default function FloatingCode() {
 
       {/* Corner brackets */}
       {/* Top-left */}
-      <div className="fixed top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-wp-blue/30" style={{ animation: 'cornerGlow 3s ease-in-out infinite' }} />
+      <div className="fixed top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-wp-blue/60" style={{ animation: 'cornerGlow 3s ease-in-out infinite' }} />
       {/* Top-right */}
-      <div className="fixed top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-wp-blue/30" style={{ animation: 'cornerGlow 3s ease-in-out infinite 0.5s' }} />
+      <div className="fixed top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-wp-blue/60" style={{ animation: 'cornerGlow 3s ease-in-out infinite 0.5s' }} />
       {/* Bottom-left */}
-      <div className="fixed bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-wp-blue/30" style={{ animation: 'cornerGlow 3s ease-in-out infinite 1s' }} />
+      <div className="fixed bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-wp-blue/60" style={{ animation: 'cornerGlow 3s ease-in-out infinite 1s' }} />
       {/* Bottom-right */}
-      <div className="fixed bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-wp-blue/30" style={{ animation: 'cornerGlow 3s ease-in-out infinite 1.5s' }} />
+      <div className="fixed bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-wp-blue/60" style={{ animation: 'cornerGlow 3s ease-in-out infinite 1.5s' }} />
 
       {/* CRT scanline overlay */}
       <div
-        className="absolute inset-0 opacity-[0.015]"
+        className="absolute inset-0 opacity-[0.12] z-[999]"
         style={{
-          backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(58,123,213,0.1) 2px, rgba(58,123,213,0.1) 4px)',
+          backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(58,123,213,0.4) 2px, rgba(58,123,213,0.4) 4px)',
           animation: 'scanline 8s linear infinite',
         }}
       />
 
       <style>{`
         @keyframes floatUp {
-          0% { transform: translateY(100vh) translateX(0px); }
-          100% { transform: translateY(-100vh) translateX(30px); }
+          0% { transform: translateY(100vh) translateX(0px); opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 1; }
+          100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
         }
         @keyframes dotPulse {
           0%, 100% { opacity: 0.5; }
